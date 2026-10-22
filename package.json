@@ -1,0 +1,8 @@
+{
+  "name": "matchday-world-cup-jersey-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive fan-style football jersey storefront with a lightweight Node API and Docker support.",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}

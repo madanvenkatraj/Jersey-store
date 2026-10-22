@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b2d">
+  <meta name="description" content="Find your colours for football's biggest summer. Explore Matchday's 2026 World Cup-inspired fan jersey collection.">
+  <title>Matchday — World Cup 2026 Fan Jerseys</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="/assets/">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement-bar">
+    <span class="announcement-dot" aria-hidden="true"></span>
+    <p>THE WORLD'S GAME. YOUR COLOURS. <strong>FREE SHIPPING OVER ₹2,999</strong></p>
+    <a href="#shop">Shop the collection <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Matchday home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 8 27 13 25 22 15 22 13 13Z" fill="currentColor"/><path d="m13 13-6 4 3 9 5-4m12-9 6 4-3 9-5-4M10 26l5 6 10 0 5-6M15 22l-3 6m13-6 3 6M20 8v-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span class="brand-copy"><strong>MATCHDAY</strong><small>FOOTBALL CULTURE</small></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a class="nav-link active" href="#shop">Shop jerseys</a>
+      <a class="nav-link" href="#story">The fan edit</a>
+      <a class="nav-link" href="#promise">Our promise</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button search-toggle" id="searchToggle" type="button" aria-label="Search jerseys" title="Search jerseys"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 4.3 4.3"/></svg></button>
+      <button class="cart-button" id="openCart" type="button" aria-label="Open shopping bag">BAG <span class="cart-count" id="cartCount">0</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg></button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-grid-texture" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> THE 2026 FAN COLLECTION</div>
+        <h1 id="heroTitle">ONE GAME.<br><em>EVERY</em> NATION.</h1>
+        <p class="hero-description">Big tournament energy starts with what you wear. Find the colours you back, the moments you'll remember, and your next matchday favourite.</p>
+        <div class="hero-buttons"><a class="button button-light" href="#shop">Find your jersey <span aria-hidden="true">↗</span></a><a class="text-link hero-secondary" href="#story">Meet the fan edit <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><span>⚽</span><span>✦</span><span>26</span></div><div><strong>Made for the terraces</strong><small>Built around the love of the game</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Illustrated fan jerseys from the 2026 collection">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-stamp"><span>THE</span><strong>26</strong><span>EDITION</span></div>
+        <div class="hero-shirt shirt-back"><img src="/assets/brazil.svg" alt="Illustrated Brazil-inspired yellow fan jersey"></div>
+        <div class="hero-shirt shirt-front"><img src="/assets/argentina.svg" alt="Illustrated Argentina-inspired striped fan jersey"></div>
+        <div class="hero-caption"><span class="caption-star">✳</span><div><strong>YOUR COLOURS.</strong><small>YOUR MOMENT.</small></div></div>
+        <div class="hero-side-note">FOOTBALL IS FOR EVERYONE — 2026</div>
+      </div>
+      <div class="hero-bottom-line"><span>DESIGNED FOR THE LOVE OF THE GAME</span><span>01 — 26 COLLECTION</span></div>
+    </section>
+
+    <section class="benefit-strip" id="promise" aria-label="Store benefits">
+      <div class="benefit-item"><span class="benefit-icon">✳</span><div><strong>Fan-first designs</strong><small>Inspired by national colours</small></div></div>
+      <div class="benefit-item"><span class="benefit-icon">↗</span><div><strong>Easy 7-day returns</strong><small>Changed your mind? No stress.</small></div></div>
+      <div class="benefit-item"><span class="benefit-icon">⌁</span><div><strong>Secure demo checkout</strong><small>No payment is collected in this demo</small></div></div>
+      <div class="benefit-item"><span class="benefit-icon">□</span><div><strong>Free shipping</strong><small>On orders over ₹2,999</small></div></div>
+    </section>
+
+    <section class="shop-section section-pad" id="shop" aria-labelledby="shopTitle">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT MATCHDAY FIT</div><h2 id="shopTitle">THE FAN <em>EDIT</em><span class="title-period">.</span></h2></div>
+        <p>Rep your colours. Pick your fit.<br>Make every game feel like a final.</p>
+      </div>
+
+      <div class="shop-toolbar">
+        <div class="category-tabs" role="group" aria-label="Filter jersey category">
+          <button type="button" class="category-tab selected" data-category="All" aria-pressed="true">All jerseys <span id="allCount">12</span></button>
+          <button type="button" class="category-tab" data-category="Home" aria-pressed="false">Home kits</button>
+          <button type="button" class="category-tab" data-category="Away" aria-pressed="false">Away kits</button>
+        </div>
+        <div class="shop-tools">
+          <label class="search-box" id="searchBox"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 4.3 4.3"/></svg><input id="productSearch" type="search" placeholder="Search country..." aria-label="Search country or jersey" autocomplete="off"><button id="clearSearch" type="button" aria-label="Clear search" hidden>×</button></label>
+          <label class="sort-label" for="sortSelect">SORT BY <select id="sortSelect"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="rating">Top rated</option></select></label>
+        </div>
+      </div>
+      <div class="active-filter-note" id="resultsNote" aria-live="polite">Showing the full fan edit</div>
+      <div class="product-grid" id="productGrid" aria-live="polite"><div class="loading-state">Loading your next matchday favourite…</div></div>
+      <div class="empty-state" id="emptyState" hidden><span>◌</span><h3>No jerseys found</h3><p>Try another country or clear the filters.</p><button class="button button-dark" id="resetFilters" type="button">Reset filters</button></div>
+      <div class="shop-footnote"><span class="tiny-spark">✳</span> The best seats are the ones you wear. <span class="footnote-rule"></span><a href="#story">Read the fan edit <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="story-visual">
+        <div class="story-graphic-lines" aria-hidden="true"></div>
+        <div class="story-ball" aria-hidden="true"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="85" fill="#f4f0e5"/><path d="m100 55 26 19-10 31H84L74 74Z M74 74 45 69 31 99l26 21 27-15m42-31 29-5 14 30-21 21-27-17M57 120l-4 29 28 21 25-16 10-29m0 0 27 25-7 23m-62-88L100 55l24-24m2 43 12-32m-24 104 9 23" fill="#163c2e" stroke="#163c2e" stroke-width="3" stroke-linejoin="round"/><circle cx="100" cy="100" r="85" fill="none" stroke="#fff" stroke-width="3" opacity=".8"/></svg></div>
+        <div class="story-number">26</div><span class="story-tag">A GLOBAL GAME</span>
+        <div class="story-bottom"><span>90 MINUTES.</span><span>ONE WORLD.</span></div>
+      </div>
+      <div class="story-copy"><div class="eyebrow"><span class="eyebrow-line"></span> MORE THAN A SHIRT</div><h2>THE GAME<br>CONNECTS <em>US.</em></h2><p>Different flags. Different songs. The same last-minute nerves. Matchday is a fan-led collection made for the people who bring the noise, wherever they call home.</p><p>Find a jersey that feels like your story, whether you're watching with your crew, travelling to a game, or backing your nation from the sofa.</p><a href="#shop" class="button button-dark">Choose your colours <span aria-hidden="true">↗</span></a><div class="story-signature"><span class="signature-mark">M.</span><span><strong>THE MATCHDAY EDIT</strong><small>FOOTBALL CULTURE, FOR EVERYONE</small></span></div></div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="newsletter-decoration" aria-hidden="true">✳</div>
+      <div class="newsletter-copy"><div class="eyebrow"><span class="eyebrow-line"></span> JOIN THE SQUAD</div><h2>FIRST DIBS.<br><em>NO OFFSIDES.</em></h2><p>Get new drops, fan stories and matchday essentials straight to your inbox.</p></div>
+      <form class="newsletter-form" id="newsletterForm"><label for="newsletterEmail">YOUR EMAIL ADDRESS</label><div class="newsletter-input-wrap"><input id="newsletterEmail" name="email" type="email" placeholder="you@example.com" required autocomplete="email"><button type="submit" aria-label="Join the Matchday mailing list">JOIN THE SQUAD <span aria-hidden="true">↗</span></button></div><p class="form-message" id="newsletterMessage" aria-live="polite">By joining, you agree to receive Matchday emails. Unsubscribe anytime.</p></form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 8 27 13 25 22 15 22 13 13Z" fill="currentColor"/><path d="m13 13-6 4 3 9 5-4m12-9 6 4-3 9-5-4M10 26l5 6 10 0 5-6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span><span class="brand-copy"><strong>MATCHDAY</strong><small>FOOTBALL CULTURE</small></span></a><p>For the love of the game.<br>And everyone who makes it.</p><a class="back-top" href="#top">BACK TO TOP ↑</a></div>
+    <div class="footer-bottom"><span>© 2026 MATCHDAY FAN EDIT</span><span>MADE FOR FANS. NOT AFFILIATED WITH FIFA OR ANY NATIONAL FEDERATION.</span><div><a href="#promise">Shipping & returns</a><a href="mailto:hello@matchday.example">Contact</a></div></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true">
+    <div class="drawer-header"><div><span class="drawer-kicker">YOUR MATCHDAY PICKS</span><h2 id="cartTitle">THE BAG <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="closeCart" type="button" aria-label="Close shopping bag">×</button></div>
+    <div class="shipping-progress" id="shippingProgress"><div class="shipping-progress-copy"><span id="shippingMessage">Add jerseys to unlock free shipping.</span><strong id="shippingProgressAmount">₹2,999</strong></div><div class="progress-track"><span id="progressBar"></span></div></div>
+    <div class="cart-items" id="cartItems"><div class="cart-empty"><span class="empty-bag-icon">□</span><h3>Your bag is waiting.</h3><p>Pick the colours you'll be cheering in.</p><button class="button button-dark" id="continueShopping" type="button">Explore jerseys</button></div></div>
+    <div class="drawer-footer" id="drawerFooter" hidden><div class="subtotal-row"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div><div class="subtotal-row shipping-row"><span>Shipping</span><strong id="cartShipping">₹0</strong></div><div class="subtotal-row total-row"><span>Total</span><strong id="cartTotal">₹0</strong></div><p class="tax-note">Taxes included where applicable. Shipping calculated above.</p><button class="button button-dark checkout-button" id="checkoutButton" type="button">Continue to checkout <span aria-hidden="true">↗</span></button><p class="secure-note">⌁ Demo checkout · No payment is collected</p></div>
+  </aside>
+
+  <div class="modal-wrap" id="checkoutModal" hidden>
+    <section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <div class="checkout-head"><div><span class="drawer-kicker">ONE LAST STEP</span><h2 id="checkoutTitle">DELIVERY <em>DETAILS</em></h2></div><button class="close-button" id="closeCheckout" type="button" aria-label="Close checkout">×</button></div>
+      <p class="checkout-explainer">This demo records your order locally in the store service. It does not charge a card or create a real shipment.</p>
+      <form id="checkoutForm" class="checkout-form">
+        <div class="form-two-col"><label>Full name<input name="name" type="text" minlength="2" maxlength="100" autocomplete="name" required placeholder="Your full name"></label><label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label></div>
+        <label>Phone number <span class="optional-label">(optional)</span><input name="phone" type="tel" autocomplete="tel" placeholder="+91 98765 43210"></label>
+        <label>Delivery address<textarea name="address" rows="2" minlength="5" maxlength="300" autocomplete="street-address" required placeholder="House / street / area"></textarea></label>
+        <div class="form-two-col"><label>City<input name="city" type="text" minlength="2" maxlength="100" autocomplete="address-level2" required placeholder="City"></label><label>Postal code<input name="postalCode" type="text" minlength="4" maxlength="15" autocomplete="postal-code" required placeholder="Postal code"></label></div>
+        <div class="checkout-summary"><span>Order total</span><strong id="checkoutTotal">₹0</strong></div>
+        <p class="checkout-error" id="checkoutError" role="alert" hidden></p>
+        <button class="button button-dark checkout-submit" type="submit" id="placeOrderButton">Place demo order <span aria-hidden="true">↗</span></button>
+      </form>
+      <div class="order-success" id="orderSuccess" hidden><div class="success-check">✓</div><span class="drawer-kicker">YOU'RE ON THE TEAM</span><h3>ORDER <em>IN.</em></h3><p id="successMessage">Your demo order has been received.</p><p class="order-id-line">ORDER REFERENCE <strong id="successOrderId"></strong></p><button class="button button-dark" id="finishOrder" type="button">Back to the store</button></div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
